@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{C40EB85B-B5DB-4E9E-9560-53D230540DDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfACircle", "AreaOfACircle\AreaOfACircle.csproj", "{0678593E-6429-4969-A23F-394573AD7348}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C40EB85B-B5DB-4E9E-9560-53D230540DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40EB85B-B5DB-4E9E-9560-53D230540DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40EB85B-B5DB-4E9E-9560-53D230540DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0678593E-6429-4969-A23F-394573AD7348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0678593E-6429-4969-A23F-394573AD7348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0678593E-6429-4969-A23F-394573AD7348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0678593E-6429-4969-A23F-394573AD7348}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
