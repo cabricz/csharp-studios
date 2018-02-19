@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2E7A1116-E5A2-4B58-99AB-15392E438B3A}</ProjectGuid>
+    <ProjectGuid>{C40EB85B-B5DB-4E9E-9560-53D230540DDB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>csharp_studios</RootNamespace>
-    <AssemblyName>csharp-studios</AssemblyName>
+    <RootNamespace>CountingCharacters</RootNamespace>
+    <AssemblyName>CountingCharacters</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

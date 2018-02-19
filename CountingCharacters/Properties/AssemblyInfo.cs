@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("csharp-studios")]
+[assembly: AssemblyTitle("CountingCharacters")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("csharp-studios")]
+[assembly: AssemblyProduct("CountingCharacters")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2e7a1116-e5a2-4b58-99ab-15392e438b3a")]
+[assembly: Guid("c40eb85b-b5db-4e9e-9560-53d230540ddb")]
 
 // Version information for an assembly consists of the following four values:
 //
