@@ -8,12 +8,13 @@ namespace CheeseMVC.Controllers
 {
     public class CheeseController : Controller
     {
-        static private Dictionary<string,string> cheeses = new Dictionary<string, string>();
+        static private Dictionary<string,string> Cheeses = new Dictionary<string, string>();
+        static string s = "";
 
         // GET: /<controller>/
         public IActionResult Index()
         {
-            ViewBag.cheeses = cheeses;
+            ViewBag.cheeses = Cheeses;
 
             return View();
         }
@@ -27,14 +28,14 @@ namespace CheeseMVC.Controllers
         [Route("/Cheese/Add")]
         public IActionResult NewCheese(string name, string description)
         {
-            cheeses.Add(name, description);
+            Cheeses.Add(name, description);
 
             return Redirect("/Cheese");
         }
 
         public IActionResult Remove()
         {
-            ViewBag.cheeses = cheeses;
+            ViewBag.cheeses = Cheeses;
 
             return View();
         }
@@ -43,7 +44,7 @@ namespace CheeseMVC.Controllers
         [Route("/Cheese/Remove")]
         public IActionResult RemoveCheese(string cheese)
         {
-            cheeses.Remove(cheese);
+            Cheeses.Remove(cheese);
 
             return Redirect("/Cheese");
         }
